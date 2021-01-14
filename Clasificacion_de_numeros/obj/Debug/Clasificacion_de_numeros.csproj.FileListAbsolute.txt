@@ -1,0 +1,7 @@
+C:\Users\tomas\Desktop\Clasificacion de numeros\Clasificacion_de_numeros\Clasificacion_de_numeros\bin\Debug\Clasificacion_de_numeros.exe.config
+C:\Users\tomas\Desktop\Clasificacion de numeros\Clasificacion_de_numeros\Clasificacion_de_numeros\bin\Debug\Clasificacion_de_numeros.exe
+C:\Users\tomas\Desktop\Clasificacion de numeros\Clasificacion_de_numeros\Clasificacion_de_numeros\bin\Debug\Clasificacion_de_numeros.pdb
+C:\Users\tomas\Desktop\Clasificacion de numeros\Clasificacion_de_numeros\Clasificacion_de_numeros\obj\Debug\Clasificacion_de_numeros.csprojAssemblyReference.cache
+C:\Users\tomas\Desktop\Clasificacion de numeros\Clasificacion_de_numeros\Clasificacion_de_numeros\obj\Debug\Clasificacion_de_numeros.csproj.CoreCompileInputs.cache
+C:\Users\tomas\Desktop\Clasificacion de numeros\Clasificacion_de_numeros\Clasificacion_de_numeros\obj\Debug\Clasificacion_de_numeros.exe
+C:\Users\tomas\Desktop\Clasificacion de numeros\Clasificacion_de_numeros\Clasificacion_de_numeros\obj\Debug\Clasificacion_de_numeros.pdb
