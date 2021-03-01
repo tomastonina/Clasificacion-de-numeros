@@ -70,7 +70,7 @@ namespace Numeros
                     else
                         break;
                 }
-                if (cont >= 4)
+                if (cont >= 14)
                 {
                     int ir = 0;
                     for (int l = 0; l < contenedor.Length; l++)

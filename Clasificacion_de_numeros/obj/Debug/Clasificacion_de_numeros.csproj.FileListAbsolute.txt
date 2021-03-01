@@ -5,3 +5,10 @@ C:\Users\tomas\Desktop\Clasificacion de numeros\Clasificacion_de_numeros\Clasifi
 C:\Users\tomas\Desktop\Clasificacion de numeros\Clasificacion_de_numeros\Clasificacion_de_numeros\obj\Debug\Clasificacion_de_numeros.csproj.CoreCompileInputs.cache
 C:\Users\tomas\Desktop\Clasificacion de numeros\Clasificacion_de_numeros\Clasificacion_de_numeros\obj\Debug\Clasificacion_de_numeros.exe
 C:\Users\tomas\Desktop\Clasificacion de numeros\Clasificacion_de_numeros\Clasificacion_de_numeros\obj\Debug\Clasificacion_de_numeros.pdb
+C:\Users\Tony\Downloads\Clasificacion_de_numeros\Clasificacion_de_numeros\bin\Debug\Clasificacion_de_numeros.exe.config
+C:\Users\Tony\Downloads\Clasificacion_de_numeros\Clasificacion_de_numeros\bin\Debug\Clasificacion_de_numeros.exe
+C:\Users\Tony\Downloads\Clasificacion_de_numeros\Clasificacion_de_numeros\bin\Debug\Clasificacion_de_numeros.pdb
+C:\Users\Tony\Downloads\Clasificacion_de_numeros\Clasificacion_de_numeros\obj\Debug\Clasificacion_de_numeros.csprojAssemblyReference.cache
+C:\Users\Tony\Downloads\Clasificacion_de_numeros\Clasificacion_de_numeros\obj\Debug\Clasificacion_de_numeros.csproj.CoreCompileInputs.cache
+C:\Users\Tony\Downloads\Clasificacion_de_numeros\Clasificacion_de_numeros\obj\Debug\Clasificacion_de_numeros.exe
+C:\Users\Tony\Downloads\Clasificacion_de_numeros\Clasificacion_de_numeros\obj\Debug\Clasificacion_de_numeros.pdb

@@ -18,6 +18,9 @@ namespace Numeros
             Fraccionario num2;
             Racional num3;
             Console.WriteLine("Ingrese un numero\n");
+            Console.WriteLine("Si se ingresa un decimal, ingresar con , (coma)");
+            Console.WriteLine("Si se ingresa una fraccion, ingresar con / (barra)");
+            Console.WriteLine("Si se ingresan 14 o mas decimales, se toma como irracional\n");
             numero = Console.ReadLine();
 
             while (repetir == 0)
@@ -26,7 +29,7 @@ namespace Numeros
                 Console.WriteLine("Ingrese 2 para ver si el numero es entero");
                 Console.WriteLine("Ingrese 3 para ver si el numero es fraccionario");
                 Console.WriteLine("Ingrese 4 para ver si el numero es racional");
-                Console.WriteLine("Ingrese 5 para limpiar la consola");
+                Console.WriteLine("Ingrese 5 para limpiar la consola y ingresar un numero nuevamente");
                 Console.WriteLine("Ingrese 6 para terminar el programa");
                 i = Convert.ToInt32(Console.ReadLine());
                 switch (i)
@@ -37,7 +40,22 @@ namespace Numeros
                             Console.WriteLine("\nEl numero no es natural");
                             break;
                         }
-                        num1 = new Entero(Convert.ToInt32(numero));
+                        try
+                        {
+                            num1 = new Entero(Convert.ToInt32(numero));
+                        }
+                        catch (Exception)
+                        {
+                            if(numero.Contains("/") || numero.Contains("-") || numero.Contains(".")) {
+                                Console.WriteLine("El numero no es natural");
+                                break;
+                            }
+                            else
+                            {
+                                Console.WriteLine("El numero es natural");
+                                break;
+                            }                          
+                        }
                         if (num1.esNatural() == true)
                         {
                             Console.WriteLine("\nEl numero es natural");
@@ -118,7 +136,6 @@ namespace Numeros
                             numerador3.Valor = numerador2;
                             denominador3.Valor = denominador2;
                             num3 = new Racional(new Fraccionario(numerador3, denominador3));
-                            Console.WriteLine("El numero es fraccionario");
                             if (num3.esRacional())
                                 Console.WriteLine("El numero es racional");
                             if (num3.esIrracional())
@@ -129,7 +146,6 @@ namespace Numeros
                             numeradora = double.Parse(numero);
                             num3 = new Racional(numeradora);
                             if (!num3.esIrracional() && num3.esFraccionario())
-                                Console.WriteLine("El numero es fraccionario");
                             if (num3.esEntero())
                                 Console.WriteLine("El numero es entero");
                             if (num3.esRacional())
@@ -140,6 +156,10 @@ namespace Numeros
                         break;
                     case 5:
                         Console.Clear();
+                        Console.WriteLine("Ingrese un numero\n");
+                        Console.WriteLine("Si se ingresa un decimal, ingresar con , (coma)");
+                        Console.WriteLine("Si se ingresa una fraccion, ingresar con / (barra)\n");
+                        numero = Console.ReadLine();
                         break;
                     case 6:
                         Console.WriteLine("Presione una tecla para terminar");
